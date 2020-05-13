@@ -1,0 +1,17 @@
+#include "martini_v2.2P.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_lipids_all_201506.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>POPC:CHOL=80.0:20.0 LowerLeaflet>POPC:CHOL=80.0:20.0
+
+[ molecules ]
+; name  number
+POPC           540
+CHOL           135
+POPC           540
+CHOL           135
+PW           21706
+NA+            239
+CL-            239

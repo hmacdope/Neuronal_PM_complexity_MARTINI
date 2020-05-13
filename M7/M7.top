@@ -1,0 +1,43 @@
+#include "martini_v2.2P.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_brain_complex_b5-GMs_old.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>CHOL:POPC:DPPC:DOPC:PFPC:PAPC:PUPC:OIPC:OUPC:POPE:PAPE:PUPE:OIPE:OAPE:OUPE=44.4:13.8:8.4:3.5:0.9:7.3:2.7:0.9:0.6:2.1:5.0:8.0:0.2:1.1:1.1 LowerLeaflet>CHOL:POPC:DPPC:DOPC:PFPC:PAPC:PUPC:OIPC:OUPC:POPE:PAPE:PUPE:OIPE:OAPE:OUPE=44.6:8.0:4.9:2.0:0.5:4.3:1.6:0.5:0.3:3.9:9.5:15.1:0.5:2.0:2.2
+
+[ molecules ]
+; name  number
+CHOL           300
+POPC            93
+DPPC            56
+DOPC            23
+PFPC             6
+PAPC            49
+PUPC            18
+OIPC             6
+OUPC             4
+POPE            14
+PAPE            33
+PUPE            54
+OIPE             1
+OAPE             7
+OUPE             7
+CHOL           301
+POPC            54
+DPPC            33
+DOPC            13
+PFPC             3
+PAPC            29
+PUPC            10
+OIPC             3
+OUPC             2
+POPE            26
+PAPE            64
+PUPE           102
+OIPE             3
+OAPE            13
+OUPE            14
+PW           21317
+NA+            235
+CL-            235

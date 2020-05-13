@@ -1,0 +1,25 @@
+#include "martini_v2.2P.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_brain_complex_b5-GMs_old.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>CHOL:POPC:PUPE:DPSM:DPGS:PAPS=44.4:26.1:11.8:9.6:8.1:0.0 LowerLeaflet>CHOL:POPC:PUPE:DPSM:DPGS:PAPS=44.6:15.9:25.1:2.7:0.0:11.7
+
+[ molecules ]
+; name  number
+CHOL           300
+POPC           176
+PUPE            79
+DPSM            64
+DPGS            54
+PAPS             0
+CHOL           301
+POPC           107
+PUPE           169
+DPSM            18
+DPGS             0
+PAPS            79
+PW           21369
+NA+            275
+CL-            196

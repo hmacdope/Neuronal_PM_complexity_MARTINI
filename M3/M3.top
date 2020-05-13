@@ -1,0 +1,19 @@
+#include "martini_v2.2P.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_lipids_all_201506.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>POPC:PUPE:CHOL=38.1:17.5:44.4 LowerLeaflet>POPC:PUPE:CHOL=22.2:33.2:44.6
+
+[ molecules ]
+; name  number
+POPC           257
+PUPE           118
+CHOL           300
+POPC           150
+PUPE           224
+CHOL           301
+PW           21372
+NA+            235
+CL-            235
